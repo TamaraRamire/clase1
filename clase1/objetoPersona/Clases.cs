@@ -10,14 +10,14 @@ namespace libreriaClase{
 
         public string Nombre {get;set;}
 
-        public string DNI {get;set;}
+        public int DNI {get;set;}
         
         public string FechaNacimiento {get;set;}
         
 
        
 
-        public  Persona(string rApellio,string rNombre, string rFechaNacimiento, string rDni){
+        public  Persona(string rApellio,string rNombre, string rFechaNacimiento, int rDni){
             Apellido = rApellio;
             Nombre = rNombre;
             FechaNacimiento = rFechaNacimiento;

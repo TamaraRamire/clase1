@@ -48,7 +48,7 @@ namespace libreria
             p1.FechaNacimiento = Console.ReadLine();
 
              Console.Write("Ingrese DNI: ");
-            p1.DNI = Console.ReadLine();
+            p1.DNI = Convert.ToInt32(Console.ReadLine());
         }
 
 
